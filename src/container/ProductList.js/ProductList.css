@@ -1,0 +1,59 @@
+.SingleProduct {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #8080800d;
+}
+
+.Item {
+  overflow: hidden;
+  position: relative;
+}
+.Link {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 20px 104px 20px 20px;
+  display: flex;
+}
+.a {
+  color: inherit;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+.Thumbnail {
+  margin-right: 10px;
+  position: relative;
+}
+.ImageWrap {
+  width: 80px;
+  height: 80px;
+}
+img {
+  vertical-align: bottom;
+  border: none;
+}
+.Content {
+  display: flex;
+  flex-grow: 1;
+}
+.Title {
+  color: #757575;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+}
+.Tagline {
+  line-height: 20px;
+  margin: 0 0 12px;
+  position: absolute;
+  top: 63px;
+  display: flex;
+  flex-grow: 1;
+  font-weight: 400;
+  font-size: 13px;
+  color: #757575;
+  left: 110px;
+}

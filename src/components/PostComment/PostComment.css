@@ -1,0 +1,47 @@
+.Comment {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 100px;
+  background-color: aqua;
+}
+.userDeatils {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.Content {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.HeadLine {
+  line-height: 20px;
+  display: block;
+  font-weight: 600;
+  font-size: 13px;
+  color: #000;
+}
+.CommentBorder {
+  border-left-color: #f3f3f3;
+}
+.CommentContainer {
+  margin-left: 13px;
+  padding-left: 24px;
+  border-left: 3px solid transparent;
+  margin-top: 10px;
+}
+.CommentArea {
+  line-height: 20px;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  word-break: normal;
+  word-wrap: break-word;
+  font-weight: 400;
+  font-size: 13px;
+  margin: 0 0 10px;
+  position: absolute;
+  left: 143px;
+}

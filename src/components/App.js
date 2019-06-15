@@ -1,15 +1,17 @@
-import React from 'react';
-import logo from '../logo.svg';
-import '../styles/App.css';
-
-import LinkList from './LinkList'
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import Products from "./Products/Products";
+import PostComment from "./PostComment/PostComment";
+import "../styles/App.css";
 
 function App() {
   return (
-    <div className="App">
-	<div> 
-	<button>App</button></div>
-      <LinkList />
+    <div className="container App">
+      Today
+      <Switch>
+        <Route exact path="/" component={Products} />
+        <Route path="/PostComment" component={PostComment} />
+      </Switch>
     </div>
   );
 }
